@@ -11,3 +11,6 @@
 3. Установить в Python библиотеку PyTest
 > pip install pytest
  
+Запуск автотеста возможен только в браузерах Google Chrome.
+
+> pytest -s -v --browser_name=chromium test_practice_form.py
